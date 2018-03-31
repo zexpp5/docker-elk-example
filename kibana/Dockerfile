@@ -1,6 +1,5 @@
-FROM docker.elastic.co/kibana/kibana:6.2.2
+FROM registry.cn-hangzhou.aliyuncs.com/hybit/kibana-6.2.3
 
-LABEL maintainer="genius840215@163.com"
 
 COPY ./config/kibana.yml /usr/share/kibana/config/kibana.yml
 

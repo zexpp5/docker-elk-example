@@ -1,6 +1,5 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch-platinum:6.2.2
+FROM registry.cn-hangzhou.aliyuncs.com/hybit/elasticsearch_6.2.3
 
-LABEL maintainer="genius840215@163.com"
 
 COPY ./config/elasticsearch.yml /usr/share/elasticsearch/conifg/elasticsearch.yml
 

@@ -1,3 +1,2 @@
-FROM docker.elastic.co/beats/metricbeat:6.2.2
+FROM registry.cn-hangzhou.aliyuncs.com/hybit/metricbeat-6.2.3
 
-LABEL maintainer="genius840215@163.com"
